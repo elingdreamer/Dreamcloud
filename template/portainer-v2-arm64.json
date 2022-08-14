@@ -4869,6 +4869,46 @@
 		},
 		{
 			"categories": [
+				"Other"
+			],
+			"description": "Rdesktop is an Ubuntu based container containing full desktop environments in officially supported flavors accessible via RDP.",
+			"env": [
+				{
+					"default": "1000",
+					"label": "PUID",
+					"name": "PUID"
+				},
+				{
+					"default": "1000",
+					"label": "PGID",
+					"name": "PGID"
+				},
+				{
+					"default": "America/New_York",
+					"label": "TZ",
+					"name": "TZ"
+				}
+			],
+			"image": "linuxserver/rdesktop:ubuntu-xfce",
+			"logo": "https://raw.githubusercontent.com/novaspirit/pi-hosted/master/images/rdesktop.png",
+			"name": "rdesktop",
+			"platform": "linux",
+			"ports": [
+				"3389:3389/tcp"
+			],
+			"restart_policy": "unless-stopped",
+			"title": "RDesktop",
+			"type": 1,
+			"volumes": [
+				{
+					"bind": "/portainer/Files/AppData/Config/RDesktop/config",
+					"container": "/config"
+				}
+			],
+			"note": "<h3>Template created by Pi-Hosted Series</h3><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"http://xrdp.org/\" target=\"_blank\">http://xrdp.org/</a><br><b>Official Docker Documentation: </b><a href=\"https://docs.linuxserver.io/images/docker-rdesktop\" target=\"_blank\">https://docs.linuxserver.io/images/docker-rdesktop</a><br><br><br>"
+		},
+		{
+			"categories": [
 				"Other",
 				"Tools"
 			],
