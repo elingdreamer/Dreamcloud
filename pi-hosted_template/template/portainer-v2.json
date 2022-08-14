@@ -4488,7 +4488,7 @@
 					"name": "TZ"
 				}
 			],
-			"image": "linuxserver/rdesktop:latest",
+			"image": "linuxserver/rdesktop:amd64-latest",
 			"logo": "https://raw.githubusercontent.com/novaspirit/pi-hosted/master/images/rdesktop.png",
 			"name": "rdesktop",
 			"platform": "linux",
