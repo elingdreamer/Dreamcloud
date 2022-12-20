@@ -6487,7 +6487,7 @@
 				"WordPress custom",
 				"Web"
 			],
-			"description": "Wordpress setup with a MySQL database",
+			"description": "Wordpress custom setup with a MySQL database",
 			"env": [
 				{
 					"default": "5080",
