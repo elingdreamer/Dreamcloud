@@ -6512,7 +6512,7 @@
 			"note": "<h3>Template created by Pi-Hosted Series</h3><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://wordpress.com/\" target=\"_blank\">https://wordpress.com/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/docker-library/docs/tree/master/wordpress#-via-docker-stack-deploy-or-docker-compose\" target=\"_blank\">https://github.com/docker-library/docs/tree/master/wordpress#-via-docker-stack-deploy-or-docker-compose</a><br><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/wordpress_installation.md\" target=\"_blank\">wordpress_installation.md</a><br><br><br>Deploys a Wordpress instance connected to a MySQL database.",
 			"platform": "linux",
 			"repository": {
-				"stackfile": "stack/wordpress-stack.yml",
+				"stackfile": "stack/wordpress-custom.yml",
 				"url": "https://github.com/pi-hosted/pi-hosted"
 			},
 			"title": "Wordpress",
